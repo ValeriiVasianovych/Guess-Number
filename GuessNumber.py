@@ -27,7 +27,7 @@ def main():
         elif  user_guess < random_num:
             print(f'No, {user_guess} < then hidden number.')
 
-        if attempts >= 8:
+        if attempts >= 4:
             print(f'You lose! You have reached the maximum number of attempts. The hidden number was {random_num}. Attempts: {attempts}')
             break
 
